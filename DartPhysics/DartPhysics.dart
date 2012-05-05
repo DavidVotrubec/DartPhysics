@@ -1,4 +1,12 @@
 #import('dart:html');
+#import('behaviour');
+#import('engine');
+
+#source('Engine/Particle.dart');
+#source('Engine/ParticleState.dart');
+#source('Behaviour/Behaviour.dart');
+#source('Math/Vector.dart');
+
 
 class DartPhysics {
 
